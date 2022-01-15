@@ -1,4 +1,4 @@
-# BlinkLed Class
+# BlinkLed Library
 A BlinkLed object can turn **ON**, switch **OFF**, **TOGGLE** and **BLINK** a LED connected to any output pin in both active HIGH and active LOW configurations.
 
 BlinkLed blinks a led using a poolling approach. For this reason BlinkLed can be safetely used in timer-dependent projects.
