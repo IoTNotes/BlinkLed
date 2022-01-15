@@ -15,7 +15,7 @@ void BlinkLed::blink(uint32_t timeON, uint32_t timeOFF) {
 
 	uint32_t timeToWait = (__state == ON) ? timeON : timeOFF;
 	uint32_t now = millis();
-	if (now - __lastBlink > timeToWait) {
+	if (now - __lastBlink >= timeToWait) {
 		__lastBlink = now;
 		toggle();
 	}
