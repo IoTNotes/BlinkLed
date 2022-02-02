@@ -9,7 +9,7 @@ BlinkLed blinks a led using a poolling approach. For this reason BlinkLed can be
 To create a BlinkLed object you can use the constructor
 
 ```<language>
-BlinkLed::BlinkLed (uint8_t pin, bool isInverted = false);
+BlinkLed::BlinkLed (pin, isInverted = false);
 ```
 
 You don't need to setup the pin, it's all done inside the constructor.
@@ -21,7 +21,7 @@ BlinkLed myLed(2);
 // As above, false is the default parameter
 BlinkLed myLed(2, false);
 
-// Creae a BlynkLed object on pin 2, active LOW
+// Create a BlynkLed object on pin 2, active LOW
 BlinkLed myLed(2, true)
 ```
 
