@@ -44,7 +44,7 @@ myLed.toggle();
 ```
 
 ### BLINK a LED
-To blink a LED, BlinkLed class uses a poolling approach.<br> This means the LED state is updated on every call to his method blink()
+To blink a LED, BlinkLed class uses a polling approach.<br> This means the LED state is updated on every call to his method blink()
 
 ```<language>
 BlinkLed::blink(uint32_t timeOn, uint32_t timeOff = 0);
