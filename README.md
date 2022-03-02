@@ -65,7 +65,7 @@ void setup() {
 }
 
 void loop () {
-    // Blink myLed1 600ms ON and 500ms OFF
+    // Blink myLed1 500ms ON and 500ms OFF
     myLed1.blink(500);
     // Blink myLed2 50ms ON and 1500ms OFF
     myLed2.blink(50, 1500);
