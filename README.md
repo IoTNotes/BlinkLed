@@ -1,4 +1,3 @@
-language: "C++"
 # BlinkLed Library
 BlinkLed library helps you to control normal LEDs with the Arduino IDE.
 
